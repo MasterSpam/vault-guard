@@ -1,0 +1,42 @@
+.imageButton {
+    -fx-background-color: transparent;
+
+    /* Remove focus highlighting */
+    -fx-focus-traversable: false;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.imageButton:pressed {
+    -fx-background-color: #6e6d6d;
+    -fx-border-color: #6e6d6d;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+    -fx-padding: -10;
+    -fx-opacity: 0;
+}
+
+.generatorCheckbox .box {
+
+    -fx-background-color: white;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+
+}
+
+.generatorCheckbox:selected .mark {
+
+    -fx-background-color: white;
+
+}
+
+.generatorCheckbox:selected .box {
+
+    -fx-background-color: #5B858C;
+}
+
+.generatorCheckbox > .box > .mark {
+    -fx-padding: 7px;
+}

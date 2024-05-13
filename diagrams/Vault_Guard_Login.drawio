@@ -1,0 +1,154 @@
+<mxfile host="Electron" modified="2024-04-24T09:06:24.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="aoDkX63HvCFxh0dCPHLp" version="24.2.5" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1922" dy="1173" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pz79su5P8XuJgO9qLEIR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-2" target="pz79su5P8XuJgO9qLEIR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-2" target="pz79su5P8XuJgO9qLEIR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-2" target="pz79su5P8XuJgO9qLEIR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-2" value="Login:&lt;br&gt;Username&lt;div&gt;Passwort&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-3" target="pz79su5P8XuJgO9qLEIR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-3" value="username wird gehashed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-5" target="pz79su5P8XuJgO9qLEIR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-14" value="File wird eingelesen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pz79su5P8XuJgO9qLEIR-9">
+          <mxGeometry x="0.0944" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-5" value="hash wird mit filename gematched" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-7" target="pz79su5P8XuJgO9qLEIR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-7" value="passwort in plain wird für entschlüsselung von file verwendet" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-10" target="pz79su5P8XuJgO9qLEIR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-10" target="pz79su5P8XuJgO9qLEIR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-10" target="pz79su5P8XuJgO9qLEIR-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="155" />
+              <mxPoint x="-50" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-10" value="passwort wird plain in variable gespeichert" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-12" target="pz79su5P8XuJgO9qLEIR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-12" target="pz79su5P8XuJgO9qLEIR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-12" value="Passwort wird überprüft indem hash von username im file als testphrase verwendet wird" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-15" target="pz79su5P8XuJgO9qLEIR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-15" value="! anfällig für brute force attack weil name vom file = testphrase" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="405" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-17" value="alternativ wäre besser username plain als testphrase" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-19" value="Weil wird verwendet um wieder zu verschlüsseln" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-21" target="pz79su5P8XuJgO9qLEIR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-21" value="Gefährlich bei Memory Leak&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="3" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-23" target="pz79su5P8XuJgO9qLEIR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-23" value="Inhalt wird in JSON Objekt gelesen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-25" target="pz79su5P8XuJgO9qLEIR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-29" value="User ändert etwas an einem eintrag und klickt auf speichern" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pz79su5P8XuJgO9qLEIR-28">
+          <mxGeometry x="-0.2902" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-25" value="Json Objekt wird zu Java-Objekt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="598" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-27" target="pz79su5P8XuJgO9qLEIR-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-27" value="Java-Objekt wird zu JSON-Objekt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="714" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-30" target="pz79su5P8XuJgO9qLEIR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-30" value="JSON-Objekt wird verschlüsselt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-33" value="Verschlüsselter Text wird in File gespeichert" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="921" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-35" target="pz79su5P8XuJgO9qLEIR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-35" value="Was passiert bei Passwort änderung?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-542" y="226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-36" target="pz79su5P8XuJgO9qLEIR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-36" value="Lohnt es sich username und gehashtes passwort in file zu speichern um zu verifizieren, dass die richtige kombination ist." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-546" y="336" width="241" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-37" value="Ist erlaubt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-82" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-39" target="pz79su5P8XuJgO9qLEIR-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-39" value="Lokale Variable wird angepasst" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-396" y="226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-41" value="File wird auch gleich neu beschrieben mit neuem Passwort als verschlüsselung" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-249" y="226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz79su5P8XuJgO9qLEIR-43" target="pz79su5P8XuJgO9qLEIR-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-43" value="maybe sogar unsicher, weil wenn angreifer zugriff auf dieses file hat kann er mit dem username den hash erstelle -&amp;gt; file finden und da er den plaintext username hat, kann er bruteforce entschlüsseln" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-624" y="461" width="399.5" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pz79su5P8XuJgO9qLEIR-45" value="ausser man speichert auch username hashed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="464.75" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

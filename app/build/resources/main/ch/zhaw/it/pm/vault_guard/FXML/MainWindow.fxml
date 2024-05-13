@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ch.zhaw.it.pm.vault_guard.controller.MainWindowController">
+    <GridPane maxWidth="-Infinity" minWidth="-Infinity" prefWidth="220.0"
+              style="-fx-background-color: #1D1D1D;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="20.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="180.0"/>
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="20.0"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="130.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="15.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="NEVER"/>
+            <RowConstraints minHeight="15.0" vgrow="ALWAYS"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="55.0" vgrow="NEVER"/>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" vgrow="NEVER"/>
+        </rowConstraints>
+
+        <ImageView fx:id="logo" fitHeight="130.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true"
+                   GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Image url="@../images/beta_icon.png"/>
+        </ImageView>
+        <Button fx:id="viewVault" mnemonicParsing="false" prefWidth="180.0"
+                style="-fx-background-color: #666666; -fx-cursor: 'hand';" text="Vault" textFill="WHITE"
+                GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+        <Button fx:id="viewFavorites" mnemonicParsing="false" prefWidth="180.0"
+                style="-fx-background-color: #666666; -fx-cursor: 'hand';" text="Favorites" textFill="WHITE"
+                GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+        <Button fx:id="viewLeakmonitor" mnemonicParsing="false" prefWidth="180.0"
+                style="-fx-background-color: #666666; -fx-cursor: 'hand';" text="Leak Monitor" textFill="WHITE"
+                GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+        <Button fx:id="viewSettings" mnemonicParsing="false" prefWidth="180.0"
+                style="-fx-background-color: #666666; -fx-cursor: 'hand';" text="Settings" textFill="WHITE"
+                GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+        <Button fx:id="logout" mnemonicParsing="false" prefWidth="180.0"
+                style="-fx-background-color: #666666; -fx-cursor: 'hand';" text="Logout" textFill="WHITE"
+                GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+        <Button fx:id="addNewElement" mnemonicParsing="false" prefHeight="51.0" prefWidth="180.0"
+                style="-fx-background-color: #5B858C; -fx-cursor: 'hand';" textFill="WHITE" text="Add new Element"
+                GridPane.columnIndex="1" GridPane.rowIndex="10">
+            <font>
+                <Font name="Arial Bold" size="18.0"/>
+            </font>
+        </Button>
+    </GridPane>
+    <VBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="260.0"
+          style="-fx-background-color: #262626;" HBox.hgrow="ALWAYS">
+        <TextField fx:id="searchEntry" promptText="Search..."
+                   style="-fx-background-color: #4A4A4A; -fx-text-fill: #FFFFFF;">
+            <VBox.margin>
+                <Insets left="5.0" right="5.0" top="20.0"/>
+            </VBox.margin>
+        </TextField>
+        <ListView fx:id="entryList" prefHeight="418.0" prefWidth="260.0" style="-fx-background-color: TRANSPARENT;"
+                  VBox.vgrow="ALWAYS">
+            <VBox.margin>
+                <Insets top="5.0"/>
+            </VBox.margin>
+        </ListView>
+    </VBox>
+    <AnchorPane fx:id="passwordDetailDashboard" prefHeight="200.0" prefWidth="420.0"
+                style="-fx-background-color: #5B858C;" HBox.hgrow="ALWAYS"/>
+</HBox>
