@@ -1,9 +1,9 @@
-# team2-ctrl_C_ctrl_V-projekt2-vault_guard
+# Vault-Guard (Student Programming Project May 2024)
 Welcome to ValtGuard, your secure password manager. VaultGuard is a Java-based platform that works like a virtual keychain to securely manage all your passwords. Create and store strong, unique passwords for any online application easily and securely.
 
 ## Overview
 
-The `team2-ctrl_C_ctrl_V-projekt2-vault_guard` project is the result of a dedicated collaboration between the members of Team2. Our goal was to develop a robust and efficient Password Manager solution that is both secure and user-friendly. The project is written in Java and uses Gradle and Kotlin as a build tool. With a clear structure and well-documented code, we aim to facilitate the maintenance and further development of the project. We hope you enjoy using Vault Guard as much as we enjoyed developing it!
+The `vault_guard` project is the result of a dedicated collaboration between the members of our Team. Our goal was to develop a robust and efficient Password Manager solution that is both secure and user-friendly. The project is written in Java and uses Gradle and Kotlin as a build tool. With a clear structure and well-documented code, we aim to facilitate the maintenance and further development of the project. We hope you enjoy using Vault Guard as much as we enjoyed developing it!
 
 
 ## Insight into the architecture
