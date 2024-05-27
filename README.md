@@ -48,17 +48,6 @@ We hope to achieve a good understanding of our classes and their implementation 
 ## Testing concept
 [Testing concept](./documents/Testing_Konzept_Vault_guard.docx)
 
-## Pull request practice
-Here are two examples of pull requests that show how our team discusses feedback and integrates it into the project code:
-
-[Pull Request #75](https://github.zhaw.ch/PM2-IT23aWIN-fame-wahl-kars/team2-ctrl_C_ctrl_V-projekt2-vault_guard/pull/75)
-
-[Pull Request #87](https://github.zhaw.ch/PM2-IT23aWIN-fame-wahl-kars/team2-ctrl_C_ctrl_V-projekt2-vault_guard/pull/87)
-
-## Branching model
-We use the Gitflow branching model to manage our branches. The main branches are `master` and `development`. The `master` branch contains the latest stable release, while the `development` branch is used for ongoing development. Feature branches are created from the `development` branch and merged back into it once the feature is complete.
-
-[Network graph](https://github.zhaw.ch/PM2-IT23aWIN-fame-wahl-kars/team2-ctrl_C_ctrl_V-projekt2-vault_guard/network)
 
 ## Prerequisites and installation
 
