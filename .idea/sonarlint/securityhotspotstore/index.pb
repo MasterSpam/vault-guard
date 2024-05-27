@@ -9,3 +9,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+C
+settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+7
+gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
