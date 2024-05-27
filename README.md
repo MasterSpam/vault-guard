@@ -1,10 +1,14 @@
 # Vault-Guard (Student Programming Project May 2024)
-Welcome to ValtGuard, your secure password manager. VaultGuard is a Java-based platform that works like a virtual keychain to securely manage all your passwords. Create and store strong, unique passwords for any online application easily and securely.
+Welcome to VaultGuard, your secure password manager. VaultGuard is a Java-based platform that works like a virtual keychain to securely manage all your passwords. Create and store strong, unique passwords for any online application easily and securely.
 
 ## Overview
 
 The `vault_guard` project is the result of a dedicated collaboration between the members of our Team. Our goal was to develop a robust and efficient Password Manager solution that is both secure and user-friendly. The project is written in Java and uses Gradle and Kotlin as a build tool. With a clear structure and well-documented code, we aim to facilitate the maintenance and further development of the project. We hope you enjoy using Vault Guard as much as we enjoyed developing it!
 
+## Screenshots:
+![Login](./screenshots/screenshot-login.png)
+![Dashboard](./screenshots/screenshot-dashboard.png)
+![Generator](./screenshots/screenshot-generator.png)
 
 ## Insight into the architecture
 Our system architecture is designed to ensure a robust, scalable and maintainable software product.
@@ -42,7 +46,7 @@ We hope to achieve a good understanding of our classes and their implementation 
 [Login Diagram](./diagrams/Vault_Guard_Login.drawio.png)
 
 ## Testing concept
-[Tesing concept](./documents/Testing_Konzept_Vault_guard.docx)
+[Testing concept](./documents/Testing_Konzept_Vault_guard.docx)
 
 ## Pull request practice
 Here are two examples of pull requests that show how our team discusses feedback and integrates it into the project code:
@@ -105,7 +109,7 @@ Have fun using Vault Guard!
 
 This project is licensed under the [MIT License](LICENSE).
 
-Rediscover security with ValtGuard - your partner in the digital world!
+Rediscover security with VaultGuard - your partner in the digital world!
 
 
 
