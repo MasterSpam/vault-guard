@@ -74,15 +74,15 @@ Java 21 or newer must be installed on your system.
    ```
 2. Clone the repo
    ```sh
-   git clone https://github.zhaw.ch/PM2-IT23aWIN-fame-wahl-kars/team2-ctrl_C_ctrl_V-projekt2-vault_guard.git
+   git clone https://github.com/sagitta-script/vault-guard.git
    ```
 3. Switch to the project directory
    ```sh
-   cd team2-ctrl_C_ctrl_V-projekt2-vault_guard.git
+   cd vault-guard.git
    ```
 4. Start the programme
    ```sh
-   gradlew run 
+   ./gradlew run 
    ```
 
 
