@@ -87,6 +87,9 @@ Password: VaultGuard
 
 Have fun using Vault Guard!
 
+Rediscover security with VaultGuard - your partner in the digital world!
+
+
 ## Contributors
 
 - [@hoferlev](https://github.zhaw.ch/hoferlev)
@@ -98,7 +101,8 @@ Have fun using Vault Guard!
 
 This project is licensed under the [MIT License](LICENSE).
 
-Rediscover security with VaultGuard - your partner in the digital world!
+This is a copy of my group project work, which was carried out at the Zurich University of Applied Sciences (ZHAW)
+
 
 
 
